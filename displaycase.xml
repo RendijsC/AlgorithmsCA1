@@ -1,0 +1,80 @@
+<object-stream>
+  <Resources.LinkedList>
+    <head>
+      <data class="com.example.ca1.DisplayCase">
+        <displayTrays>
+          <head>
+            <data class="com.example.ca1.DisplayTray">
+              <trayID>tray1</trayID>
+              <inlay>Green</inlay>
+              <width>10</width>
+              <depth>10</depth>
+              <displayItems>
+                <head>
+                  <data class="com.example.ca1.JewelleryItem">
+                    <descriptionj>yes</descriptionj>
+                    <typej>Watch</typej>
+                    <gender>Male</gender>
+                    <price>12</price>
+                    <displayComponents>
+                      <nodes>0</nodes>
+                    </displayComponents>
+                  </data>
+                  <next>
+                    <data class="com.example.ca1.JewelleryItem">
+                      <descriptionj>yes</descriptionj>
+                      <typej>Ring</typej>
+                      <gender>Male</gender>
+                      <price>12</price>
+                      <displayComponents>
+                        <nodes>0</nodes>
+                      </displayComponents>
+                    </data>
+                  </next>
+                </head>
+                <nodes>2</nodes>
+              </displayItems>
+            </data>
+          </head>
+          <nodes>1</nodes>
+        </displayTrays>
+        <caseID>case1</caseID>
+        <type>Freestanding</type>
+        <lighting>Lit</lighting>
+      </data>
+      <next>
+        <data class="com.example.ca1.DisplayCase">
+          <displayTrays>
+            <head>
+              <data class="com.example.ca1.DisplayTray">
+                <trayID>tray2</trayID>
+                <inlay>Green</inlay>
+                <width>10</width>
+                <depth>10</depth>
+                <displayItems>
+                  <head>
+                    <data class="com.example.ca1.JewelleryItem">
+                      <descriptionj>yes</descriptionj>
+                      <typej>Watch</typej>
+                      <gender>Male</gender>
+                      <price>12</price>
+                      <displayComponents>
+                        <nodes>0</nodes>
+                      </displayComponents>
+                    </data>
+                  </head>
+                  <nodes>1</nodes>
+                </displayItems>
+              </data>
+            </head>
+            <nodes>1</nodes>
+          </displayTrays>
+          <caseID>case2</caseID>
+          <type>Wall-Mounted</type>
+          <lighting>Lit</lighting>
+        </data>
+      </next>
+    </head>
+    <nodes>2</nodes>
+  </Resources.LinkedList>
+</object-stream>
