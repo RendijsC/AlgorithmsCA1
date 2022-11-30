@@ -48,9 +48,7 @@ public class DisplayCase {
 
     @Override
     public String toString() {
-        return
-                "  " + displayTrays +
-                "  " + caseID +
+        return  "  " + caseID +
                 "  " + type +
                 "  " + lighting;
     }

@@ -28,7 +28,6 @@ public class DisplayTray {
                 "  " + trayID + '\'' +
                 "  " + inlay + '\'' +
                 " " + width + '\'' +
-                " " + depth + '\'' +
-                '}';
+                " " + depth + '\'' ;
     }
 }

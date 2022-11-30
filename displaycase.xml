@@ -12,18 +12,26 @@
               <displayItems>
                 <head>
                   <data class="com.example.ca1.JewelleryItem">
-                    <descriptionj>yes</descriptionj>
+                    <descriptionj>watch</descriptionj>
                     <typej>Watch</typej>
                     <gender>Male</gender>
                     <price>12</price>
                     <displayComponents>
-                      <nodes>0</nodes>
+                      <head>
+                        <data class="com.example.ca1.JewelleryComponent">
+                          <typec>Gold</typec>
+                          <descriptionc>gold</descriptionc>
+                          <quantity>2</quantity>
+                          <quality>good</quality>
+                        </data>
+                      </head>
+                      <nodes>1</nodes>
                     </displayComponents>
                   </data>
                   <next>
                     <data class="com.example.ca1.JewelleryItem">
-                      <descriptionj>yes</descriptionj>
-                      <typej>Ring</typej>
+                      <descriptionj>watch</descriptionj>
+                      <typej>Watch</typej>
                       <gender>Male</gender>
                       <price>12</price>
                       <displayComponents>
@@ -38,43 +46,11 @@
           </head>
           <nodes>1</nodes>
         </displayTrays>
-        <caseID>case1</caseID>
-        <type>Freestanding</type>
+        <caseID>display1</caseID>
+        <type>Wall-Mounted</type>
         <lighting>Lit</lighting>
       </data>
-      <next>
-        <data class="com.example.ca1.DisplayCase">
-          <displayTrays>
-            <head>
-              <data class="com.example.ca1.DisplayTray">
-                <trayID>tray2</trayID>
-                <inlay>Green</inlay>
-                <width>10</width>
-                <depth>10</depth>
-                <displayItems>
-                  <head>
-                    <data class="com.example.ca1.JewelleryItem">
-                      <descriptionj>yes</descriptionj>
-                      <typej>Watch</typej>
-                      <gender>Male</gender>
-                      <price>12</price>
-                      <displayComponents>
-                        <nodes>0</nodes>
-                      </displayComponents>
-                    </data>
-                  </head>
-                  <nodes>1</nodes>
-                </displayItems>
-              </data>
-            </head>
-            <nodes>1</nodes>
-          </displayTrays>
-          <caseID>case2</caseID>
-          <type>Wall-Mounted</type>
-          <lighting>Lit</lighting>
-        </data>
-      </next>
     </head>
-    <nodes>2</nodes>
+    <nodes>1</nodes>
   </Resources.LinkedList>
 </object-stream>
